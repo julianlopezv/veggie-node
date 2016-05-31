@@ -38,7 +38,7 @@ describe('veggie', function () {
 
 
   	/**it('Service Auth: El usuario "test" con password "test" debe obtener el token "c4ca4238a0b923820dcc509a6f75849b"', function (done) {
-  		request.get('http://localhost/auth?username=test&password=test', function (err, res, body){
+  		request.get('http://veggiecheck.herokuapp.com/auth?username=test&password=test', function (err, res, body){
     		expect(res.statusCode).to.equal(200);
     		expect(res.body).to.equal('{"token":"c4ca4238a0b923820dcc509a6f75849b"}');
     		done();
