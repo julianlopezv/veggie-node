@@ -45,5 +45,5 @@ Copyright (c) 2016 Julián Andrés López Valencia. Licensed under the MIT licen
 [travis-image]: https://travis-ci.org/julianlopezv/veggie-node.svg?branch=master
 [daviddm-url]: https://david-dm.org/julianlopezv/veggie-node.svg?theme=shields.io
 [daviddm-image]: https://david-dm.org/julianlopezv/veggie-node
-[coveralls-url]: https://coveralls.io/r/julianlopezv/veggie-node
-[coveralls-image]: https://coveralls.io/repos/julianlopezv/veggie-node/badge.png
+[coveralls-url]: https://coveralls.io/github/julianlopezv/veggie-node?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/julianlopezv/veggie-node/badge.svg?branch=master
