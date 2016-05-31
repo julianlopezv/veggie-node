@@ -1,0 +1,50 @@
+{
+  "name": "veggie-node",
+  "version": "1.0.0",
+  "description": "Backend for the App Veggie Check!",
+  "homepage": "http://veggiecheck.herokuapp.com/",
+  "license": "MIT",
+  "main": "lib/veggie.js",
+  "author": {
+    "name": "Julián Andrés López Valencia",
+    "email": "julian.lopez@udea.edu.co"
+  },
+  "scripts": {
+    "coveralls": "gulp test && cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianlopezv/veggie-node"
+  },
+  "keywords": [
+    "Veggie",
+    "Vegetarian",
+    "Vegan",
+    "Products",
+    "Information",
+    "Guide"
+  ],
+  "bugs": {
+    "url": "https://github.com/julianlopezv/veggie-node/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "chai": "^3.5.0",
+    "cors": "^2.7.1",
+    "crypto": "0.0.3",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-jshint": "^1.8.4",
+    "gulp-mocha": "^1.1.0",
+    "gulp-istanbul": "^0.5.0",
+    "coveralls": "^2.11.1",
+    "should": "^4.0.4",
+    "jshint-stylish": "^0.4.0",
+    "gulp-load-plugins": "^0.6.0",
+    "gulp-plumber": "^0.6.5"
+  }
+}
