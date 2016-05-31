@@ -20,7 +20,12 @@ veggie(); // "awesome"
 
 ## API
 
-_(Coming soon)_
+/auth
+	Method: GET
+
+	Params:
+		username Name of the user
+		password Password of the user
 
 
 ## Contributing
